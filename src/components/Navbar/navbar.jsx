@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import "./navbar.css";
+import "./Navbar.css";
 import logo from "../../assets/logo.png";
 import arrow_icon from "../../assets/arrow_icon.png";
 import { CoinContext } from "../../context/CoinContext";  
