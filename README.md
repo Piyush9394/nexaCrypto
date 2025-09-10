@@ -1,12 +1,14 @@
-# React + Vite
+# NexaCrypto: Your All-in-One Crypto Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+NexaCrypto is a feature-rich web platform for cryptocurrency enthusiasts, providing a comprehensive suite of tools to track, analyze, and stay informed about the crypto market. The application is built using a modern tech stack including **React 19** and **Vite**, ensuring a fast and seamless user experience.
 
-Currently, two official plugins are available:
+**🚀 View Live Demo:** [Link to your deployed site]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Key Features
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **📈 Real-Time Market Overview:** Browse hundreds of cryptocurrencies with live-updated prices, market capitalization, 24-hour volume, and price changes.
+- **📊 Interactive Historical Charts:** Dive deep into any coin's performance with clean, interactive charts powered by React Google Charts.
+- **📰 Integrated News Feed:** Get the latest headlines and stories from the cryptocurrency world to make informed decisions.
+- **🧮 Cryptocurrency Calculator:** An intuitive tool to quickly convert between various cryptocurrencies and traditional fiat currencies.
+- **📱 Fully Responsive UI:** A sleek, modern interface with a beautiful gradient background that is fully optimized for both desktop and mobile devices.
+- **⚡ Blazing Fast:** Built with Vite for near-instant hot module replacement (HMR) and optimized production builds.
