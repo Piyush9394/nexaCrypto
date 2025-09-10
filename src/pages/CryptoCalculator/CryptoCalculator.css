@@ -1,0 +1,116 @@
+
+.calculator-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  background: linear-gradient(135deg, #0b004e, #1d152f, #002834);
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  transition: 0.3s;
+}
+
+
+.calculator-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 28px;
+  color: #ffcc00;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+}
+
+
+.calculator-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+
+.calculator-container input,
+.calculator-container select {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid #002834;
+  outline: none;
+  font-size: 16px;
+  background: rgba(29, 21, 47, 0.8);
+  color: #fff;
+  transition: 0.3s;
+}
+
+.calculator-container input:focus,
+.calculator-container select:focus {
+  background: rgba(11, 0, 78, 0.8);
+  border-color: #ffcc00;
+}
+
+
+.calculator-container button {
+  width: 100%;
+  padding: 14px 0;
+  background: #ffcc00;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #1d152f;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.calculator-container button:hover {
+  background: #ffc107;
+  transform: translateY(-2px);
+}
+
+
+.result {
+  margin-top: 25px;
+  padding: 18px;
+  background: rgba(29, 21, 47, 0.7);
+  border-radius: 12px;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  border: 1px solid #002834;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.result span {
+  font-weight: bold;
+  color: #ffcc00;
+}
+
+
+@media (max-width: 600px) {
+  .calculator-container {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .calculator-container h2 {
+    font-size: 24px;
+  }
+
+  .calculator-container input,
+  .calculator-container select {
+    font-size: 14px;
+    padding: 10px 12px;
+  }
+
+  .calculator-container button {
+    font-size: 14px;
+    padding: 12px 0;
+  }
+
+  .result {
+    font-size: 16px;
+    padding: 15px;
+  }
+}
