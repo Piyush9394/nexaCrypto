@@ -2,7 +2,7 @@
 
 NexaCrypto is a feature-rich web platform for cryptocurrency enthusiasts, providing a comprehensive suite of tools to track, analyze, and stay informed about the crypto market. The application is built using a modern tech stack including **React 19** and **Vite**, ensuring a fast and seamless user experience.
 
-**🚀 View Live Demo:** https://nexacrypto.great-site.net/
+**🚀 View Live Demo:**http://nexacrypto.liveblog365.com/
 
 ## Key Features
 
